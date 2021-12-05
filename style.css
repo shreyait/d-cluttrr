@@ -1,0 +1,40 @@
+.sub-heading{
+    text-align: center;
+    color: brown;
+}
+.sub-heading1{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.title{
+    height: 90vh;
+}
+.box{
+    border: 2px solid brown;
+    border-radius: 4px;
+    width: 90%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+   margin-left: 5%;
+   margin-bottom: 5%;
+   align-items: center;
+   padding: 5px;
+   font-size: larger;
+}
+footer{
+    background-color: brown;
+    color: white;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .sub-heading1{
+        margin-top: 1px;
+        margin-bottom: 1px;
+    }
+    .title{
+        height: 30vh;
+    }
+  }
+  
